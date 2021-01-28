@@ -1,0 +1,76 @@
+<!-- // Caurosel -->
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-md="column"
+  fxLayoutAlign="space-around"
+  fxLayoutGap="1"
+>
+  <div fxFlex="24" fxFlex.md="33" fxFlex.sm="50" fxFlex.xs="100">
+    <mat-card>Notice</mat-card>
+  </div>
+  <app-banner
+    fxFlex="50"
+    fxFlex.md="33"
+    fxFlex.sm="50"
+    fxFlex.xs="100"
+  ></app-banner>
+  <div fxFlex>
+    <mat-card>Notice</mat-card>
+  </div>
+</div>
+
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutAlign="space-around center"
+  fxLayoutAlign.xs="start"
+>
+  <img
+    fxFlex="25"
+    fxFlex.md="33"
+    fxFlex.sm="50"
+    fxFlex.xs="100"
+    src="../assets/images/tour.png"
+    alt=""
+    height="50px"
+  />
+</div>
+
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutAlign="space-around center"
+  fxLayoutAlign.xs="center"
+  fxLayoutAlign.md="center"
+>
+  <div
+    fxFlex="25"
+    fxFlex.md="33"
+    fxFlex.sm="50"
+    fxFlex.xs="100"
+    src="../assets/images/tour.png"
+    alt=""
+    height="50px"
+  >
+    <h3 class="subtitle">{{ "Home.facility.title" | translate }}</h3>
+  </div>
+</div>
+
+<div
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutAlign="space-around center"
+  fxLayoutAlign.xs="start"
+  fxLayoutGap="10px"
+>
+  <div fxFlex="50" fxFlex.md="50" fxFlex.sm="50" fxFlex.xs="100"></div>
+  <div fxFlex="40" fxFlex.md="33" fxFlex.sm="50" fxFlex.sm="100">
+    <mat-card
+      class="facility mat-elevation-z6"
+      *ngFor="let fac of facilities; index as i"
+    >
+      - {{ fac | translate }}</mat-card
+    >
+  </div>
+  <div fxFlex="10" fxHide.lt-md="true"></div>
+</div>

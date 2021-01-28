@@ -1,0 +1,45 @@
+.container {
+  height: 100vh;
+}
+
+article {
+  text-align: center;
+  color: black;
+  // border: 1px solid white;
+  padding: 40px;
+  // box-shadow: 1px 1px 100px 10px rgba(0, 0, 0, 0.8);
+}
+
+:host ::ng-deep .mat-card-image {
+  height: 85vh;
+  margin: -16px -16px -21px -16px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 5px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Architects Daughter", sans-serif;
+}
+
+.title {
+  color: #ffffff;
+  // font-size: 20px;
+  letter-spacing: 5px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Architects Daughter", sans-serif;
+}
+
+.mobiletitle {
+  color: #ffffff;
+  // font-size: 13px;
+  letter-spacing: 5px;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  font-family: "Architects Daughter", sans-serif;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+}
