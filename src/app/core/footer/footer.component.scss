@@ -1,15 +1,6 @@
-:host ::ng-deep .mat-toolbar {
-  //   background: linear-gradient(to right, #ff6400 0%, #ff0705 110%);
-  background: #000000;
-  z-index: 2;
-  color: #ffffff;
-  justify-content: center;
-  position: fixed;
-  bottom: 0;
-}
-
-.footer {
-  text-align: center;
-  text-transform: capitalize;
-  font-family: "Muli", Calibri;
+#footer-widgets-container {
+  background: #1A5C7C;
+  padding: 20px 0;
+  margin-top: 15px;
+  height: 300px;
 }
